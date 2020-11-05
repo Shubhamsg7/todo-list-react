@@ -7,7 +7,75 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main_div{
+  width: 100%;
+  height: 100vh;
+  background: #cb2d3e;
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);
+  background: linear-gradient(to right, #ef473a, #cb2d3e);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.center{
+  background:#fff;
+  padding: 20px 40px;
+  box-shadow: 10px 10px 10px rgba(  0, 0, 0, .2);
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+input{
+  color: #212121;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: 2px solid #212121;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+button{
+  background: #cb2d3e;
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);
+  background: linear-gradient(to right, #ef473a, #cb2d3e);
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 15px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.list{
+  
+}
+
+i{
+  background: #cb2d3e;
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);
+  background: linear-gradient(to right, #ef473a, #cb2d3e);
+  color: #fff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+li{
+  list-style: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+*:focus{
+  outline: none;
 }
